@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/eu.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <title>Bucate ca la mama!</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            Bucate ca la mama!
+            <img class="logo" src="images/logo1.png" alt="Logoul siteului" />
+        </a>
+        <i id="menu-btn" class="fas fa-bars" onclick="show()"></i>
+    </header>
+
+    <div class="page-container">
+        <aside id="side-menu">
+            <a href="index.html">
+                Home
+                <i class="fas fa-home iconite"></i>
+            </a>
+            <a href="pages/despre.html">
+                Despre mine
+                <i class="fas fa-female iconite"></i>
+            </a>
+            <a href="pages/copturi.html">
+                Copturi
+                <i class="fas fa-cookie-bite iconite"></i>
+            </a>
+            <a href="pages/bucate.html">
+                Bucate
+                <i class="fas fa-utensils iconite"></i>
+            </a>
+            <a href="pages/contact.html">
+                Contacte
+                <i class="fas fa-id-card iconite"></i>
+            </a>
+        </aside>
+        <main>
+            <div class="audio">
+                <audio controls loop autoplay src="resources/home.mp3">
+                <p>Nu este suportat</p>
+                </audio>
+            </div>
+            <h2 class="title">Home</h2>
+            <p class="blog">
+                Bun venit pe <i>Bucate ca la mama!</i> Sunt Beșliu Aliona, autoarea acestui blog și gazda ta în acest spațiu
+                virtual.
+            </p>
+            <video controls muted autoplay class="intro-video" src="resources/glume.mp4"></video>
+
+            <p class="blog">
+                Vei găsi pe blogul meu rețete de diverse copturi și bucate delicioase de la mama mea.
+                Dacă ai întrebări, le aștept în comentarii și voi fi bucuroasă să te ajut.
+
+            </p>
+            <div class="gallery">
+                <a target_blank href="https://www.libertatea.ro/lifestyle/idei-mic-dejun-ce-sa-mananci-dimineata-1527351">
+                    <img class="img-limbaj" src="images/dejun.png" alt="Micul dejun"/>
+                </a>
+                <a target_blank href="https://sfaturimedicale.ro/masa-de-pranz/">
+                    <img class="img-limbaj" src="images/pranz.png" alt="Prânz"/>
+                </a>
+
+                <a target_blank href="https://www.perfecte.ro/sanatate/o-masa-copioasa-seara-un-dezastru-pentru-organism.html">
+                    <img class="img-limbaj" src="images/cina.png" alt="Cina"/>
+                </a>
+                <a target_blank href="https://omactiv.md/ro/low-fat/care-e-ora-cea-mai-potrivita-pentru-desert-daca-nu-te-poti-lipsi-de-el-3-variante">
+                    <img class="img-limmbaj" src="images/desert.png" alt="Desert"/>
+                </a>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <span id="data"></span>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../images/eu.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <title>Bucate ca la mama!</title>
+</head>
+
+<body>
+    <header>
+        <a href="../index.html">
+            Bucate ca la mama!
+            <img class="logo" src="../images/logo1.png" alt="Logoul siteului" />
+        </a>
+        <i id="menu-btn" class="fas fa-bars" onclick="show()"></i>
+    </header>
+
+    <div class="page-container">
+        <aside id="side-menu">
+            <a href="../index.html">
+                Home
+                <i class="fas fa-home iconite"></i>
+            </a>
+            <a href="despre.html">
+                Despre mine
+                <i class="fas fa-female iconite"></i>
+            </a>
+            <a href="copturi.html">
+                Copturi
+                <i class="fas fa-cookie-bite iconite"></i>
+            </a>
+            <a href="bucate.html">
+                Bucate
+                <i class="fas fa-utensils iconite"></i>
+            </a>
+            <a href="contact.html">
+                Contacte
+                <i class="fas fa-id-card iconite"></i>
+            </a>
+        </aside>
+        <main>
+            <div class="audio">
+                <audio controls loop autoplay src="../resources/contacte.mp3">
+                <p>Nu este suportat</p>
+                </audio>
+            </div>
+            <h2 class="title">Contacte</h2>
+            
+            <div class="row">
+                <div class="col-50">
+                    <h3>Contactează-ne dacă:</h3>
+                    <ul class="contact-list">
+                        <li>
+                            Dacă ai nevoie de ajutor sau de lămuriri suplimentare pentru prepararea unei reţete îmi poţi
+                            lăsa un comentariu la postarea respectivă;
+                        </li>
+                        <li>Dorești să adaugi o rețetă;</li>
+                        <li>
+                            Blogul <i>Bucate ca la mama!</i> oferă colaborări sub formă de spațiu publicitar, testări de
+                            produse, organizare de concursuri și alte forme de reclamă.
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-50">
+                    <h3>Date de contact</h3>
+                    <ul class="contact-list">
+                        <li><b>Adresa: </b>mun. Ungheni, str. M. Cebotari</li>
+                        <li><b>Telefon: </b>(0236)22738</li>
+                        <li><b>Ore de lucru: </b>09:00-18:00</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-50">
+                    <iframe class="map"
+                        src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d2709.960073621804!2d27.801687451194105!3d47.21736352267574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e0!4m0!4m3!3m2!1d47.218489399999996!2d27.805190399999997!5e0!3m2!1sro!2s!4v1627331796372!5m2!1sro!2s"
+                        style="border:0;"allowfullscreen=""loading="lazy"></iframe>
+                </div>
+                <div class="col-50">
+                    <div class="contact-form">
+                        <form>
+                            <h3 class="centered">Lasă un mesaj</h3>
+                            <input type="text" placeholder="Nume" required>
+                            <input type="email" placeholder="Email" required>
+                            <textarea rows="3" placeholder="Mesaj" required></textarea>
+                            <input type="submit" value="Transmite">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <span id="data"></span>
+    </footer>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
